@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaq.css">
+</head>
+<body>
+    <nav id="desktop-nav"> 
+        <div class = "logo"> Ziyaad Shaboodien</div>
+        <div>
+            <ul class = "nav-links">
+                <li><a href ="#About">About</a></li>
+                <li><a href ="#Writing">Writing</a></li>
+                <li><a href ="#Shop">Shop</a></li>
+                <li><a href ="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="pfp">
+            <img src="./asset/000014.JPG" alt="35mm unflashed picture of Ziyaad Shaboodien">
+        </div>
+        <div class = "text">
+            <p class="p1">Heya, I'm</p>
+            <h1 class="name">Ziyaad</h1>
+            <p class="p2">UCT BSc Computer Science and Applied Statistics</p>
+            <p class="p3">Writer | Editor | Coach</p>
+            <div class="btn-container">
+                <button class = "btn btn-color-2" onclick="window.open('asset/CV - Ziyaad Shaboodien.pdf')">Download CV</button>
+                <button class = "btn btn-color-1" onclick="location.href='./#Contact'">Pop me a message</button>
+            </div>
+            <div id="socials-container">
+                <img src="./asset/insta 144.png" alt="instagram icon" class="icon" onclick="window.open('https://instagram.com/ziyaad_shabz')">
+                <img src="./asset/twitter 150.png" alt="twitter icon" class="icon" onclick="window.open('https://twitter.com/ziyaad_shabz')">
+                <img src="./asset/github 150.png" alt="github icon" class="icon" onclick="window.open('https://github.com/Magnimius')">
+                <img src="./asset/linkedin 150.png" alt="linkedin icon" class="icon" onclick="window.open('https://linkedin.com/in/ziyaad-shaboodien')">
+            </div>
+        </div>
+    </section>
+    <section id ="About">
+        <h1 class="abtitle">About me</h1>
+        <div class="about-section-container">
+            <div class="abpic-container">
+                <img src="./asset/me.jpg" alt="pic of me under a tree photobooth hearts" class="ab-pic">
+            </div>
+            <div class="about-container">
+                <p>
+                    I'm a second year student at UCT, studying my bachelors in Computer Science and Applied Statistics </br>
+                    <br>
+                    On top of that, I'm a debating coach for the Western Cape, an editor and TA at Polyphony Lit, and an aspiring writer. I've been published in The Paper Crane Journal, Point Mag, and Polyphony Lit. I've been named one of the top poets of the AVBOB Poetry Competition 2022, and I'm writing my debut novel. </br>
+                    <br>
+                    I've coded this site to host my writing, as well as any other coding projects I may do.</br>
+                    <br>
+                    My biggest fear is fading into an indifferent middle age. Let this be a testament to whatever I shall do with my life. I hope for it to be meaningful, and impactful. </br>
+                    <br>
+                    love, always </br>
+                    Ziyaad
+                </p>
+            </div>
+        </div>
+        <img src="./asset/double down.png" alt="yass go down" class="arrow" onclick="location.href='./#Writing'">
+    </section>
+    <section id="Writing">
+        <p class="p1">Read My</p>
+        <h1 class="name">Writing</h1>
+        <div class="writing-details-container">
+            <div class="essay-containers">
+                <div class="det-container">
+                    <h2 class="writing-subtitle">Essays</h2>
+                    <div class=article-container>
+                        <article>
+                        <img src="./asset/book.png" alt="book icon" class="icon">
+                        <div>
+                            <h3>Ariel</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./asset/book.png" alt="book icon" class="icon">
+                        <div>
+                            <h3>Physiognomy</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./asset/book.png" alt="book icon" class="icon">
+                        <div>
+                            <h3>A New Intimacy</h3>
+                        </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="det-container">
+                    <h2 class="writing-subtitle">Poems</h2>
+                    <div class=article-container>
+                        <article>
+                        <img src="./asset/page.png" alt="book icon" class="icon">
+                        <div>
+                            <h3>You've locked yourself in the bathroom again</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./asset/page.png" alt="book icon" class="icon">
+                        <div>
+                            <h3>Baby Birds</h3>
+                            <p>first published in AVBOB 2022 Poems Catalogue</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./asset/page.png" alt="book icon" class="icon">
+                        <div>
+                            <h3>dementia of a darling's ghost</h3>
+                            <p>first published in Paper Crane Journal V4</p>
+                        </div>
+                        </article>
+                    <article>
+                        <img src="./asset/page.png" alt="book icon" class="icon">
+                        <div>
+                            <h3>eros come closer</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./asset/double down.png" alt="yass go down" class="arrow" onclick="location.href='./#Shop'">
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
 
